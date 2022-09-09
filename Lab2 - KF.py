@@ -35,7 +35,7 @@ weight_g = (lab_g * .7) + (exam_g * .2) + (atten_g * .1)
 #will print the name the user inputed above and round the weighted grade calculation to the tens place
 print(f'The weighted grade for {name} is {round(weight_g, 1)}')
 
-if 90 <= weight_g: #checks/prints for a grade between 90% and a 100% (inclusive)
+if 90 <= weight_g: #checks/prints for a grade above 90% (inclusive)
     print(f'{name} has a letter grade of A')
 elif 80 <= weight_g < 90: #checks/prints for a grade between 80% and 90%
     print(f'{name} has a letter grade of B')
